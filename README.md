@@ -74,9 +74,13 @@ GitHub Repo: https://github.com/karishmasultana-10/cinesearch-movie-explorer.git
 
 ## Screenshots
 
-<img width="1900" height="870" alt="image" src="https://github.com/user-attachments/assets/2b366979-c9a0-4612-93b4-a2a627d88d70" />
+<img width="1902" height="870" alt="image" src="https://github.com/user-attachments/assets/457e5b25-c45f-4c10-b3df-c350cfeeaee0" />
+
 
 <img width="1886" height="2702" alt="image" src="https://github.com/user-attachments/assets/1abf5544-47e8-4432-9dd4-8f878ba317db" />
+
+<img width="1879" height="998" alt="image" src="https://github.com/user-attachments/assets/fd7a9978-9134-44e8-888b-ef2172e9d6ae" />
+
 
 
 ## Author
