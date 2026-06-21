@@ -16,6 +16,7 @@ async function performSearch() {
     }
 
     latestSearchResult = searchResult;
+    sessionStorage.setItem("latestMovies", JSON.stringify(searchResult));
     displayMovies(searchResult);
     movieInput.value = "";
 }
@@ -211,3 +212,13 @@ movieInput.addEventListener("keydown", async function (event) {
         await performSearch();
     }
 });
+
+window.onload = function () {
+    let savedMovies = sessionStorage.getItem("latestMovies");
+
+    if (savedMovies !== null) {
+        latestSearchResult = JSON.parse(savedMovies);
+        welcomeMessage.style.display = "none";
+        displayMovies(latestSearchResult);
+    }
+};
